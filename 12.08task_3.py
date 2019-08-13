@@ -12,4 +12,4 @@ while True:
         for i in my_list:
             result*=i
 
-        print(result)
+        print('The factorial of {0} is {1}'.format(number,result))
