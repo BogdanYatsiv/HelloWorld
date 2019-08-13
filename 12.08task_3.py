@@ -1,10 +1,15 @@
-number = int(input('enter number '))
+while True:
+    number = int(input('enter number '))
 
-result = 1
-my_list = list(range(number+1))
-my_list.pop(0)
+    if number < 0:
+        print('Bad number, try again\n')
 
-for i in my_list:
-    result*=i
+    else:
+        result = 1
+        my_list = list(range(number+1))
+        my_list.pop(0)
 
-print(result)
+        for i in my_list:
+            result*=i
+
+        print(result)
