@@ -10,4 +10,4 @@ while i < repits:
     else:
         my_list.append(number)
         print(my_list)
-        i+=1
+        i += 1
