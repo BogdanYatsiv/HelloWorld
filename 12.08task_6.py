@@ -2,7 +2,7 @@ my_list = []
 repits = int(input('Enter amount of numbers '))
 
 i = 0
-while i<repits:
+while i < repits:
     number = int(input('Enter number '))
     if number <= 0:
         print('Error!')
